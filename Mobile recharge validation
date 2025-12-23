@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int amount;
+    printf("Enter recharge amount: ");
+    scanf("%d", &amount);
+
+    if (amount >= 10)
+        printf("Recharge Successful");
+    else
+        printf("Invalid Recharge Amount");
+    return 0;
+}
